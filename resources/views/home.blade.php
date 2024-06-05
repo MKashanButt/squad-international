@@ -12,7 +12,7 @@
                 fugiat! Nemo!</p>
         </div> --}}
         <div class="w-100 h-full">
-            <video autoplay loop class="w-full h-full z-40">
+            <video autoplay loop controls class="w-100 h-full z-40">
                 <source src="{{ asset('images/company-video.mp4') }}" type="video/mp4">
             </video>
         </div>
