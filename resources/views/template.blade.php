@@ -19,7 +19,7 @@
     <header class="w-full md:flex column-2 text-lg p-1 shadow-sm bg-white transition-all z-50" id="header">
         <div class="md:w-1/5 sm:w-full pl-2 flex items-center md:justify-start jutify-center">
             <a href="/">
-                <img src="{{ asset('images/SI.jpg') }}" alt="" class="lg:w-2/5 md:w-1/4 sm:w-1/4 h-full">
+                <img src="{{ asset('images/SI.jpg') }}" alt="" class="lg:w-3/6 md:w-1/4 sm:w-1/4 h-full">
             </a>
         </div>
         <nav class="w-4/5 flex items-center justify-end">
