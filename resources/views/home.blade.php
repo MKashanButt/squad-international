@@ -12,7 +12,7 @@
                 fugiat! Nemo!</p>
         </div> --}}
         <div class="w-100 h-full">
-            <video autoplay loop class="w-100 h-full z-40">
+            <video autoplay loop class="w-[100%] h-full z-40">
                 <source src="{{ asset('images/company-video.mp4') }}" type="video/mp4">
             </video>
         </div>
@@ -64,7 +64,7 @@
             <div class="w-1/3 px-2 py-3 bg-grey-500 rounded-sm hover:bg-grey-600 flex flex-col gap-4">
                 {{-- <img src="{{ asset('images/home/development.png') }}" alt="" class="w-2/5 mx-auto"> --}}
                 <div class="border-2 w-100 h-auto bg-zinc-200">
-                    <dotlottie-player src="https://lottie.host/3903b12a-f4ff-4392-b509-1b6cbc115817/IZF1CDpiGx.json"
+                    <dotlottie-player src="https://lottie.host/b916bb96-ac52-4020-b75a-d96f5b4df33b/Vu1VKTKo4W.json"
                         background="transparent" speed="1" loop autoplay class="w-3/5 mx-auto"></dotlottie-player>
                 </div>
                 <div class="flex flex-col gap-2">
