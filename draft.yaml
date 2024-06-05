@@ -1,0 +1,19 @@
+models:
+  reviews:
+    id: primary autoincrement
+    client_name: string:40
+    stars: string:1
+    reviews: text
+
+  blogs:
+    id: primary autoincrement
+    title: string:40
+    body: text
+    posted_by: string:10
+
+  form_submission:
+    id: primary autoincrement
+    name: string:40
+    email: string:20
+    message: string:100
+  

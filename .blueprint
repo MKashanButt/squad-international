@@ -1,0 +1,15 @@
+created:
+    - database/factories/ReviewsFactory.php
+    - database/factories/BlogsFactory.php
+    - database/factories/FormSubmissionFactory.php
+    - database/migrations/2024_05_07_140112_create_reviews_table.php
+    - database/migrations/2024_05_07_140113_create_blogs_table.php
+    - database/migrations/2024_05_07_140114_create_form_submissions_table.php
+    - app/Models/reviews.php
+    - app/Models/blogs.php
+    - app/Models/form_submission.php
+models:
+    User: { name: string, email: string, email_verified_at: 'timestamp nullable default:NULL', password: string, remember_token: 'string:100 nullable default:NULL' }
+    reviews: { id: 'primary autoincrement', client_name: 'string:40', stars: 'string:1', reviews: text }
+    blogs: { id: 'primary autoincrement', title: 'string:40', body: text, posted_by: 'string:10' }
+    form_submission: { id: 'primary autoincrement', name: 'string:40', email: 'string:20', message: 'string:100' }
