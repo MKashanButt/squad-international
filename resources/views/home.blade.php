@@ -11,8 +11,8 @@
                 expedita eius hic illum vitae repellendus dolorum libero magnam id provident at ut placeat, eum ab
                 fugiat! Nemo!</p>
         </div> --}}
-        <div class="w-100 h-full">
-            <video autoplay loop class="w-[100%] h-full z-40">
+        <div class="w-[100vw] h-full">
+            <video autoplay loop muted class="w-full h-full z-40 object-cover">
                 <source src="{{ asset('images/company-video.mp4') }}" type="video/mp4">
             </video>
         </div>
