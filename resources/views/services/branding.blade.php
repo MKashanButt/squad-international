@@ -106,11 +106,6 @@
                     </div>
                 </div>
             </div>
-            {{-- <div class="w-full flex gap-5 items-center justify-center absolute bottom-2">
-                <div class="rounded-[100%] bg-zinc-950 p-1"></div>
-                <div class="rounded-[100%] bg-zinc-950 p-1"></div>
-                <div class="rounded-[100%] bg-zinc-950 p-1"></div>
-            </div> --}}
         </div>
         <div class="w-1/2 h-96 flex flex-col relative">
             <div class="px-6 flex flex-col gap-4">
@@ -124,7 +119,7 @@
                     sunt
                     nemo vitae neque blanditiis quisquam!</p>
             </div>
-            {{-- <div class="w-full h-28 flex overflow-hidden bg-slate absolute bottom-[-30px] left-0">
+            <div class="w-full h-28 flex overflow-hidden bg-slate absolute bottom-[-30px] left-0">
                 <div thumbsSlider="" class="swiper mySwiper h-full">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -150,7 +145,7 @@
                         </div>
                     </div>
                 </div>
-            </div> --}}
+            </div>
         </div>
     </section>
     <section class="flex items-center content-center mt-28">

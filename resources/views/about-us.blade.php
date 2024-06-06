@@ -1,13 +1,20 @@
 @extends('template')
 @section('content')
-    <section class="h-[80vh] flex items-center justify-center">
-        <div class="w-1/2 h-full py-2 px-5 text-center flex flex-col gap-2 bg-zinc-950 text-white justify-center">
-            <h1 class="text-4xl font-bold">About Us</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem qui commodi animi quia aliquam
+    <section class="h-[80vh] flex items-center justify-center relative">
+        <img src="{{ asset('images/about-hero.png') }}" alt="" class="w-full h-full">
+        <div class="bg-zinc-950 w-full h-full absolute opacity-80"></div>
+        <div class="w-4/5 py-2 px-5 text-center flex flex-col gap-2 text-white justify-center absolute">
+            <h1 class="lg:text-[60px] font-bold">About Us</h1>
+            <p class="lg:text-1xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem qui commodi animi
+                quia
+                aliquam
+                expedita eius hic illum vitae repellendus dolorum libero magnam id provident at ut placeat, eum ab
+                fugiat! Nemo!.Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem qui commodi animi
+                quia
+                aliquam
                 expedita eius hic illum vitae repellendus dolorum libero magnam id provident at ut placeat, eum ab
                 fugiat! Nemo!</p>
         </div>
-        <div class="w-1/2 h-full bg-slate-50"></div>
     </section>
     <section class="flex gap-5 mt-28 justify-center">
         <div class="w-1/2 flex flex-col gap-3 p-4">
@@ -34,16 +41,39 @@
         </div>
     </section>
     <section class="flex gap-5 mt-28 justify-center">
-        <div class="w-2/5 flex flex-col gap-3 p-4 relative">
-            <img src="https://placehold.co/600x400" alt="" class="w-full">
-            <div class="w-full flex overflow-hidden">
-                <div class="flex">
-                    <img src="https://placehold.co/600x700" alt="" class="w-[20%] border-2 border-black">
-                    <img src="https://placehold.co/600x700" alt="" class="w-[20%]">
-                    <img src="https://placehold.co/600x700" alt="" class="w-[20%]">
-                    <img src="https://placehold.co/600x700" alt="" class="w-[20%]">
-                    <img src="https://placehold.co/600x700" alt="" class="w-[20%]">
-                    <img src="https://placehold.co/600x700" alt="" class="w-[20%]">
+        <div class="w-2/5 h-[500px] flex flex-col gap-3 p-4 relative">
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="{{ asset('images/about/SLM_0720.JPG') }}" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('images/about/SLM_0741.JPG') }}" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('images/about/SLM_0749.JPG') }}" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('images/about/SLM_0756.JPG') }}" />
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div thumbsSlider="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="{{ asset('images/about/SLM_0720.JPG') }}" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('images/about/SLM_0741.JPG') }}" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('images/about/SLM_0749.JPG') }}" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('images/about/SLM_0756.JPG') }}" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -65,7 +95,7 @@
                 recusandae distinctio rerum aliquam?</p>
         </div>
         <div class="w-1/2 flex flex-col gap-5 p-4">
-            <div
+            {{-- <div
                 class="w-[90%] shadow-md rounded-md flex flex-col gap-3 items-center justify-center text-center px-5 py-2 m-auto">
                 <img src="https://placehold.co/200x200" alt="" class="w-[50px] rounded-3xl">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolorum dicta maxime aspernatur enim?
@@ -76,6 +106,36 @@
                 <div class="p-1 rounded-3xl bg-zinc-950"></div>
                 <div class="p-1 rounded-3xl bg-zinc-950"></div>
                 <div class="p-1 rounded-3xl bg-zinc-950"></div>
+            </div> --}}
+            <div style="--swiper-navigation-color: #000000; --swiper-pagination-color: #000000" class="swiper mySwiper3">
+                <div class="swiper-wrapper">
+                    <div
+                        class="w-[90%] shadow-md rounded-md flex flex-col gap-3 items-center justify-center text-center px-[50px] py-2 m-auto swiper-slide">
+                        <img src="https://placehold.co/200x200" alt="" class="w-[50px] rounded-3xl">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolorum dicta maxime
+                            aspernatur enim?
+                            In repellendus distinctio earum quo similique?</p>
+                        <span>Customer Name</span>
+                    </div>
+                    <div
+                        class="w-[90%] shadow-md rounded-md flex flex-col gap-3 items-center justify-center text-center px-[50px] py-2 m-auto swiper-slide">
+                        <img src="https://placehold.co/200x200" alt="" class="w-[50px] rounded-3xl">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolorum dicta maxime
+                            aspernatur enim?
+                            In repellendus distinctio earum quo similique?</p>
+                        <span>Customer Name</span>
+                    </div>
+                    <div
+                        class="w-[90%] shadow-md rounded-md flex flex-col gap-3 items-center justify-center text-center px-[50px] py-2 m-auto swiper-slide">
+                        <img src="https://placehold.co/200x200" alt="" class="w-[50px] rounded-3xl">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolorum dicta maxime
+                            aspernatur enim?
+                            In repellendus distinctio earum quo similique?</p>
+                        <span>Customer Name</span>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
         </div>
     </section>
