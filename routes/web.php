@@ -12,6 +12,7 @@ Route::view('/about-us', 'about-us');
 Route::get('/about-us', function () {
     return view('about-us');
 });
+Route::view('/reviews', 'reviews');
 // Service Pages
 Route::get('/services/branding', function () {
     return view('services.branding');

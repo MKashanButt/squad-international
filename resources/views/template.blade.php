@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="{{ asset('css/sliders/about-us.css') }}">
     @endif
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body onscroll="checkPageScroll()">
@@ -48,6 +49,11 @@
                         </a>
                     </ul>
                 </li>
+                <a href="/reviews">
+                    <li class="transition ease-in-out border-white border-b-2 hover:border-black hover:border-b-2">
+                        Reviews
+                    </li>
+                </a>
                 <a href="/blogs">
                     <li class="transition ease-in-out border-white border-b-2 hover:border-black hover:border-b-2">Blogs
                     </li>
@@ -228,12 +234,16 @@
         </div>
     </footer>
     <div class="flex items-center justify-center py-2">
-        <p class="md:text-xs lg:text-md font-bold">Copyright &copy; Squad International 2019-2024</p>
+        <p class="md:text-xs lg:text-xl font-bold">Copyright &copy; Squad International 2019-2024</p>
     </div>
     <!-- script -->
     <script src="{{ asset('js/app.js') }}"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     @if (Request::is('/'))
         <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
         <script>
@@ -247,6 +257,19 @@
                     nextEl: ".swiper-button-next",
                     prevEl: ".swiper-button-prev",
                 },
+                loop: true,
+                autoplay: true,
+                loading: 'lazy'
+            });
+            // Testimonial Slider
+            var swiper2 = new Swiper(".testimonialSwiper", {
+                spaceBetween: 10,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                loop: true,
+                autoplay: true,
             });
         </script>
     @endif
@@ -268,17 +291,6 @@
                 },
                 thumbs: {
                     swiper: swiper,
-                },
-                loop: true,
-                autoplay: true,
-            });
-
-            // Testimonial Slider
-            var swiper3 = new Swiper(".mySwiper3", {
-                spaceBetween: 10,
-                navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
                 },
                 loop: true,
                 autoplay: true,

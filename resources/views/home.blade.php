@@ -2,15 +2,6 @@
 @section('content')
     <!-- hero -->
     <section class="h-[80vh] flex items-center justify-center">
-        {{-- <div
-            class="w-[30%] h-full py-2 px-5 flex flex-col gap-2 bg-zinc-950 text-white items-center justify-center relative">
-            <h1 class="md:text-2xl lg:text-4xl font-bold">Your Marketing Companion</h1>
-            <p class="md:text-xs lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem qui
-                commodi animi
-                quia aliquam
-                expedita eius hic illum vitae repellendus dolorum libero magnam id provident at ut placeat, eum ab
-                fugiat! Nemo!</p>
-        </div> --}}
         <div class="w-[100vw] h-full">
             <video autoplay loop muted class="w-full h-full z-40 object-cover">
                 <source src="{{ asset('images/company-video.mp4') }}" type="video/mp4">
@@ -39,7 +30,6 @@
         <h2 class="text-3xl font-bold">Services</h2>
         <div class="w-[90%] flex gap-5">
             <div class="w-1/3 px-2 py-3 bg-grey-500 rounded-sm hover:bg-grey-600 flex flex-col gap-4">
-                {{-- <img src="{{ asset('images/home/design.png') }}" alt="" class="w-2/5 mx-auto"> --}}
                 <div class="border-2 w-100 h-auto bg-zinc-200">
                     <dotlottie-player src="https://lottie.host/bdefb9af-54bb-4d95-a8b4-fb0f9f31e978/Zc444fI5mb.json"
                         background="transparent" speed="1" loop autoplay class="w-3/5 mx-auto"></dotlottie-player>
@@ -62,7 +52,6 @@
                 </div>
             </div>
             <div class="w-1/3 px-2 py-3 bg-grey-500 rounded-sm hover:bg-grey-600 flex flex-col gap-4">
-                {{-- <img src="{{ asset('images/home/development.png') }}" alt="" class="w-2/5 mx-auto"> --}}
                 <div class="border-2 w-100 h-auto bg-zinc-200">
                     <dotlottie-player src="https://lottie.host/b916bb96-ac52-4020-b75a-d96f5b4df33b/Vu1VKTKo4W.json"
                         background="transparent" speed="1" loop autoplay class="w-3/5 mx-auto"></dotlottie-player>
@@ -76,14 +65,14 @@
                         deserunt eveniet deleniti blanditiis corrupti alias vitae.</p>
                     <ul class="ml-8 list-[circle] md:text-xs lg:text-lg">
                         <li>App Development</li>
+                        <li>Web App Development</li>
                         <li>CRM</li>
-                        <li>Website Design</li>
+                        <li>Website Design/Development</li>
                         <li>Website Maintenance</li>
                     </ul>
                 </div>
             </div>
             <div class="w-1/3 px-2 py-3 bg-grey-500 rounded-sm hover:bg-grey-600 flex flex-col gap-4">
-                {{-- <img src="{{ asset('images/home/branding.png') }}" alt="" class="w-2/5 mx-auto"> --}}
                 <div class="border-2 w-100 h-auto bg-zinc-200">
                     <dotlottie-player src="https://lottie.host/d48779c0-a4ac-483d-91c9-2b57588cf8f5/K2rSFhCj9G.json"
                         background="transparent" speed="1" loop autoplay class="w-3/5 mx-auto"></dotlottie-player>
@@ -102,6 +91,7 @@
                         <li>Copy Writing</li>
                         <li>SMM</li>
                         <li>Blog Posting</li>
+                        <li>PPC</li>
                     </ul>
                 </div>
             </div>
@@ -131,24 +121,49 @@
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="{{ asset('images/home/PORTFOLIO 1.png') }}" alt="" class="">
+                            <img src="{{ asset('images/home/PORTFOLIO 9.png') }}" alt="" class=""
+                                loading="lazy">
                         </div>
                         <div class="swiper-slide">
-                            <img src="{{ asset('images/home/PORTFOLIO 2.png') }}" alt="" class="">
+                            <img src="{{ asset('images/home/PORTFOLIO 1.png') }}" alt="" class=""
+                                loading="lazy">
                         </div>
                         <div class="swiper-slide">
-                            <img src="{{ asset('images/home/PORTFOLIO 3.png') }}" alt="" class="">
+                            <img src="{{ asset('images/home/PORTFOLIO 2.png') }}" alt="" class=""
+                                loading="lazy">
                         </div>
                         <div class="swiper-slide">
-                            <img src="{{ asset('images/home/PORTFOLIO 4.png') }}" alt="" class="">
+                            <img src="{{ asset('images/home/PORTFOLIO 8.png') }}" alt="" class=""
+                                loading="lazy">
                         </div>
                         <div class="swiper-slide">
-                            <img src="{{ asset('images/home/PORTFOLIO 5.png') }}" alt="" class="">
+                            <img src="{{ asset('images/home/PORTFOLIO 3.png') }}" alt="" class=""
+                                loading="lazy">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="{{ asset('images/home/PORTFOLIO 10.png') }}" alt="" class=""
+                                loading="lazy">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="{{ asset('images/home/PORTFOLIO 4.png') }}" alt="" class=""
+                                loading="lazy">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="{{ asset('images/home/PORTFOLIO 5.png') }}" alt="" class=""
+                                loading="lazy">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="{{ asset('images/home/PORTFOLIO 6.png') }}" alt="" class="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="{{ asset('images/home/PORTFOLIO 7.png') }}" alt="" class=""
+                                loading="lazy">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- reviews -->
+    <!-- Reviews -->
+    <x-reviews />
 @endsection

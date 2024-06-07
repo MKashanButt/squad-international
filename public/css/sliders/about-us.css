@@ -58,9 +58,3 @@
     height: 100%;
     object-fit: cover;
 }
-
-.mySwiper3 img {
-    all: unset;
-    width: 50px;
-    border-radius: 50%;
-}

@@ -81,31 +81,7 @@
     </section>
     <section class="flex items-center content-center mt-28">
         <div class="w-1/2 relative z-40">
-            <div class="swiper mySwiper2">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="{{ asset('images/branding/logo-designing.png') }}" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                </div>
-            </div>
+            <img src="{{ asset('images/branding/logo-designing.png') }}" alt="" class="w-full">
         </div>
         <div class="w-1/2 h-96 flex flex-col relative">
             <div class="px-6 flex flex-col gap-4">
@@ -118,33 +94,6 @@
                     necessitatibus odit molestias mollitia praesentium impedit vel assumenda accusantium quam. Minima
                     sunt
                     nemo vitae neque blanditiis quisquam!</p>
-            </div>
-            <div class="w-full h-28 flex overflow-hidden bg-slate absolute bottom-[-30px] left-0">
-                <div thumbsSlider="" class="swiper mySwiper h-full">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -161,99 +110,14 @@
                     sunt
                     nemo vitae neque blanditiis quisquam!</p>
             </div>
-            {{-- <div class="w-full h-28 flex overflow-hidden bg-slate absolute bottom-[-30px] left-0">
-                <div thumbsSlider="" class="swiper mySwiper h-full">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                    </div>
-                </div>
-            </div> --}}
         </div>
         <div class="w-1/2 relative z-40">
-            <div class="swiper mySwiper2">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="{{ asset('images/branding/seo.png') }}" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                </div>
-            </div>
-            {{-- <div class="w-full flex gap-5 items-center justify-center absolute bottom-2">
-                <div class="rounded-[100%] bg-zinc-950 p-1"></div>
-                <div class="rounded-[100%] bg-zinc-950 p-1"></div>
-                <div class="rounded-[100%] bg-zinc-950 p-1"></div>
-            </div> --}}
+            <img src="{{ asset('images/branding/seo.png') }}" alt="" class="w-full">
         </div>
     </section>
     <section class="flex items-center content-center mt-28">
         <div class="w-1/2 relative z-40">
-            <div class="swiper mySwiper2">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="{{ asset('images/branding/content-writing.png') }}" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                </div>
-            </div>
-            {{-- <div class="w-full flex gap-5 items-center justify-center absolute bottom-2">
-                <div class="rounded-[100%] bg-zinc-950 p-1"></div>
-                <div class="rounded-[100%] bg-zinc-950 p-1"></div>
-                <div class="rounded-[100%] bg-zinc-950 p-1"></div>
-            </div> --}}
+            <img src="{{ asset('images/branding/content-writing.png') }}" alt="" class="w-full">
         </div>
         <div class="w-1/2 h-96 flex flex-col relative">
             <div class="px-6 flex flex-col gap-4">
@@ -267,33 +131,6 @@
                     sunt
                     nemo vitae neque blanditiis quisquam!</p>
             </div>
-            {{-- <div class="w-full h-28 flex overflow-hidden bg-slate absolute bottom-[-30px] left-0">
-                <div thumbsSlider="" class="swiper mySwiper h-full">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                    </div>
-                </div>
-            </div> --}}
         </div>
     </section>
     <section class="flex items-center content-center mt-28">
@@ -309,99 +146,14 @@
                     sunt
                     nemo vitae neque blanditiis quisquam!</p>
             </div>
-            {{-- <div class="w-full h-28 flex overflow-hidden bg-slate absolute bottom-[-30px] left-0">
-                <div thumbsSlider="" class="swiper mySwiper h-full">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                    </div>
-                </div>
-            </div> --}}
         </div>
         <div class="w-1/2 relative z-40">
-            <div class="swiper mySwiper2">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="{{ asset('images/branding/copy-writing.png') }}" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                </div>
-            </div>
-            {{-- <div class="w-full flex gap-5 items-center justify-center absolute bottom-2">
-                <div class="rounded-[100%] bg-zinc-950 p-1"></div>
-                <div class="rounded-[100%] bg-zinc-950 p-1"></div>
-                <div class="rounded-[100%] bg-zinc-950 p-1"></div>
-            </div> --}}
+            <img src="{{ asset('images/branding/copy-writing.png') }}" alt="" class="w-full">
         </div>
     </section>
     <section class="flex items-center content-center mt-28">
         <div class="w-1/2 relative z-40">
-            <div class="swiper mySwiper2">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="{{ asset('images/branding/smm.png') }}" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                </div>
-            </div>
-            {{-- <div class="w-full flex gap-5 items-center justify-center absolute bottom-2">
-                <div class="rounded-[100%] bg-zinc-950 p-1"></div>
-                <div class="rounded-[100%] bg-zinc-950 p-1"></div>
-                <div class="rounded-[100%] bg-zinc-950 p-1"></div>
-            </div> --}}
+            <img src="{{ asset('images/branding/smm.png') }}" alt="" class="w-full">
         </div>
         <div class="w-1/2 h-96 flex flex-col relative">
             <div class="px-6 flex flex-col gap-4">
@@ -415,33 +167,6 @@
                     sunt
                     nemo vitae neque blanditiis quisquam!</p>
             </div>
-            {{-- <div class="w-full h-28 flex overflow-hidden bg-slate absolute bottom-[-30px] left-0">
-                <div thumbsSlider="" class="swiper mySwiper h-full">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                    </div>
-                </div>
-            </div> --}}
         </div>
     </section>
     <section class="flex items-center content-center mt-28">
@@ -457,65 +182,27 @@
                     sunt
                     nemo vitae neque blanditiis quisquam!</p>
             </div>
-            {{-- <div class="w-full h-28 flex overflow-hidden bg-slate absolute bottom-[-30px] left-0">
-                <div thumbsSlider="" class="swiper mySwiper h-full">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x700" alt="" class="w-[100px] h-28 border-4">
-                        </div>
-                    </div>
-                </div>
-            </div> --}}
         </div>
         <div class="w-1/2 relative z-40">
-            <div class="swiper mySwiper2">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="{{ asset('images/branding/blog.png') }}" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    </div>
-                </div>
+            <img src="{{ asset('images/branding/blog.png') }}" alt="" class="w-full">
+        </div>
+    </section>
+    <section class="flex items-center content-center mt-28">
+        <div class="w-1/2 relative z-40">
+            <img src="{{ asset('images/branding/ppc.png') }}" alt="" class="w-full">
+        </div>
+        <div class="w-1/2 h-96 flex flex-col relative">
+            <div class="px-6 flex flex-col gap-4">
+                <h1 class="font-bold text-3xl">PPC</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, nemo voluptates unde laborum error, ab
+                    necessitatibus odit molestias mollitia praesentium impedit vel assumenda accusantium quam. Minima
+                    sunt
+                    nemo vitae neque blanditiis quisquam!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, nemo voluptates unde laborum error, ab
+                    necessitatibus odit molestias mollitia praesentium impedit vel assumenda accusantium quam. Minima
+                    sunt
+                    nemo vitae neque blanditiis quisquam!</p>
             </div>
-            {{-- <div class="w-full flex gap-5 items-center justify-center absolute bottom-2">
-                <div class="rounded-[100%] bg-zinc-950 p-1"></div>
-                <div class="rounded-[100%] bg-zinc-950 p-1"></div>
-                <div class="rounded-[100%] bg-zinc-950 p-1"></div>
-            </div> --}}
         </div>
     </section>
 @endsection

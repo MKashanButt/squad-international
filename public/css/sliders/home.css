@@ -23,3 +23,9 @@
 .swiper-button-prev::after {
     content: '' !important;
 }
+
+.testimonialSwiper img {
+    all: unset;
+    width: 50px;
+    border-radius: 50%;
+}
