@@ -13,3 +13,7 @@ function checkPageScroll() {
         header.classList.remove('fixed')
     }
 }
+function toggleDialog() {
+    let dialog = document.getElementById('reviewDialog');
+    dialog.style.display = "none"
+}

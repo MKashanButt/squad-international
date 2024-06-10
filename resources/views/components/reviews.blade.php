@@ -4,6 +4,12 @@
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis animi a officiis delectus architecto autem?
             Rem exercitationem deleniti ad, cumque obcaecati tempore repudiandae deserunt qui reiciendis doloribus amet
             recusandae distinctio rerum aliquam?</p>
+        <a href="/reviews">
+            <button
+                class="bg-zinc-950 border-2 border-zinc-950 transition ease-in-out p-2 text-white rounded-sm hover:bg-white hover:text-black">Add
+                A
+                Review</button>
+        </a>
     </div>
     <div class="w-1/2 flex flex-col gap-5 p-4">
         <div style="--swiper-navigation-color: #000000; --swiper-pagination-color: #000000"
