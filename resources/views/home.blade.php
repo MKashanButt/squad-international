@@ -25,6 +25,27 @@
                 commodi est repudiandae quos maxime beatae.</p>
         </div>
     </section>
+    <!-- section continued -->
+    <section class="w-100 px-5 py-5 flex gap-5">
+        <div class="w-1/3 p-5 flex flex-col items-center justify-center relative">
+            <p class="text-[120px] font-black"
+                style="color: transparent;-webkit-text-stroke-width: 4px;-webkit-text-stroke-color: black;">
+                7<span class="absolute text-[60px]">+</span></p>
+            <span class="text-2xl font-bold">Years Of Experience</span>
+        </div>
+        <div class="w-1/3 p-5 flex flex-col items-center justify-center relative">
+            <p class="text-[120px] font-black"
+                style="color: transparent;-webkit-text-stroke-width: 4px;-webkit-text-stroke-color: black;">
+                99<span class="absolute text-[60px]">%</span></p>
+            <span class="text-2xl font-bold">Positive Rating</span>
+        </div>
+        <div class="w-1/3 p-5 flex flex-col items-center justify-center relative">
+            <p class="text-[120px] font-black"
+                style="color: transparent;-webkit-text-stroke-width: 4px;-webkit-text-stroke-color: black;">
+                200<span class="absolute text-[60px]">+</span></p>
+            <span class="text-2xl font-bold">Happy Clients</span>
+        </div>
+    </section>
     <!-- services -->
     <section class="flex flex-col gap-5 items-center justify-center mt-28">
         <h2 class="text-3xl font-bold">Services</h2>
