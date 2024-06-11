@@ -237,6 +237,21 @@
     <div class="flex items-center justify-center py-2">
         <p class="md:text-xs lg:text-xl font-bold">Copyright &copy; Squad International 2019-2024</p>
     </div>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/663120a91ec1082f04e978c7/1hsnuf6fl';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
     <!-- script -->
     <script src="{{ asset('js/app.js') }}"></script>
     <script src="https://cdn.tailwindcss.com"></script>
