@@ -38,17 +38,36 @@
                             <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                         </svg>
                     </span>
-                    <ul class="flex flex-col divide-y absolute mt-1 bg-white hidden z-50" id="sub-menu">
-                        <a href="/services/branding">
-                            <li class="pl-2 pr-[50px] py-2 flex">Branding</li>
-                        </a>
-                        <a href="/services/design">
-                            <li class="pl-2 pr-[50px] py-2 flex items-center">Design</li>
-                        </a>
-                        <a href="/services/development">
-                            <li class="pl-2 pr-[50px] py-2 flex">Development</li>
-                        </a>
-                    </ul>
+                    <div class="flex absolute divide-x">
+                        <ul class="flex flex-col h-full divide-y mt-1 bg-white hidden z-50" id="sub-menu">
+                            <a href="/services/branding">
+                                <li class="pl-2 pr-[50px] py-2 flex relative flex items-center">Branding
+                                    {{-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor"
+                                        class="md:w-3 lg:w-5 toggleMenuIcon absolute right-0">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                    </svg> --}}
+                                </li>
+                            </a>
+                            <a href="/services/design">
+                                <li class="pl-2 pr-[50px] py-2 flex items-center relative">Design</li>
+                            </a>
+                            <a href="/services/development">
+                                <li class="pl-2 pr-[50px] py-2 flex relative">Development</li>
+                            </a>
+                        </ul>
+                        {{-- sub service-menu --}}
+                        {{-- <ul class="flex flex-col divide-y mt-1 bg-white hidden z-50" id="brandingSubService">
+                            <li class="pl-2 pr-[50px] py-2 flex">Logo Designing</li>
+                            <li class="pl-2 pr-[50px] py-2 flex">SEO</li>
+                            <li class="pl-2 pr-[50px] py-2 flex">Content Writing</li>
+                            <li class="pl-2 pr-[50px] py-2 flex">Copy Writing</li>
+                            <li class="pl-2 pr-[50px] py-2 flex">SMM</li>
+                            <li class="pl-2 pr-[50px] py-2 flex">Blog Posting</li>
+                            <li class="pl-2 pr-[50px] py-2 flex">PPC</li>
+                        </ul> --}}
+                    </div>
                 </li>
                 <a href="/reviews">
                     <li class="transition ease-in-out border-white border-b-2 hover:border-black hover:border-b-2">

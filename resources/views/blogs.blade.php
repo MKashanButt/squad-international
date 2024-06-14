@@ -1,13 +1,20 @@
 @extends('template')
 @section('content')
-    <section class="h-[80vh] flex items-center justify-center">
-        <div class="w-1/2 h-full py-2 px-5 text-center flex flex-col gap-2 bg-zinc-950 text-white justify-center">
-            <h1 class="text-4xl font-bold">Blogs</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem qui commodi animi quia aliquam
+    <section class="h-[80vh] flex items-center justify-center relative">
+        <img src="{{ asset('images/about-hero.png') }}" alt="" class="w-full h-full">
+        <div class="bg-zinc-950 w-full h-full absolute opacity-80"></div>
+        <div class="w-4/5 py-2 px-5 text-center flex flex-col gap-2 text-white justify-center absolute">
+            <h1 class="lg:text-[60px] font-bold">Blogs</h1>
+            <p class="lg:text-1xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem qui commodi animi
+                quia
+                aliquam
+                expedita eius hic illum vitae repellendus dolorum libero magnam id provident at ut placeat, eum ab
+                fugiat! Nemo!.Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem qui commodi animi
+                quia
+                aliquam
                 expedita eius hic illum vitae repellendus dolorum libero magnam id provident at ut placeat, eum ab
                 fugiat! Nemo!</p>
         </div>
-        <div class="w-1/2 h-full bg-slate-50"></div>
     </section>
     <section class="w-full flex flex-col gap-5 items-center justify-center mt-28">
         <form action="" class="w-1/3 flex shadow-md rounded-md overflow-hidden">

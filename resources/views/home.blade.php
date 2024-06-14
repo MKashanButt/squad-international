@@ -13,16 +13,12 @@
         <img src="{{ asset('images/home/why-choose-us.png') }}" alt="" class="w-2/5 h-full p-2">
         <div class="w-3/5 flex flex-col justify-center gap-2">
             <h2 class="md:text-md lg:text-3xl font-bold">Who We Are?</h2>
-            <p class="md:text-xs lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ducimus esse
-                tenetur cupiditate
-                nemo
-                voluptatum, laborum maiores itaque animi sint recusandae eligendi omnis officiis, repellendus hic
-                commodi est repudiandae quos maxime beatae.</p>
-            <p class="md:text-xs lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ducimus esse
-                tenetur cupiditate
-                nemo
-                voluptatum, laborum maiores itaque animi sint recusandae eligendi omnis officiis, repellendus hic
-                commodi est repudiandae quos maxime beatae.</p>
+            <p class="md:text-xs lg:text-lg">Squad International, a leading digital marketing agency with over 7 years of
+                expertise and an exceptional 99% client satisfaction rate. From UI/UX design to SEO optimization, we provide
+                a comprehensive range of services tailored to your needs.</p>
+            <p class="md:text-xs lg:text-lg"> Count on us for compelling visuals, engaging
+                content, and impactful campaigns that elevate your brand's digital presence with precision and
+                professionalism.</p>
         </div>
     </section>
     <!-- section continued -->
@@ -57,11 +53,8 @@
                 </div>
                 <div class="flex flex-col gap-2">
                     <h3 class="md:text-md lg:text-2xl font-bold">Design</h3>
-                    <p class="md:text-xs lg:text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed adipisci
-                        veniam
-                        optio
-                        placeat,
-                        deserunt eveniet deleniti blanditiis corrupti alias vitae.</p>
+                    <p class="md:text-xs lg:text-lg">Transform your brand with our premium design services. We create
+                        visuals that captivate and convert. Our services include</p>
                     <ul class="ml-8 list-[circle] md:text-xs lg:text-lg">
                         <li>UI/UX</li>
                         <li>Video Creation</li>
@@ -79,11 +72,8 @@
                 </div>
                 <div class="flex flex-col gap-2">
                     <h3 class="md:text-md lg:text-2xl font-bold">Development</h3>
-                    <p class="md:text-xs lg:text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed adipisci
-                        veniam
-                        optio
-                        placeat,
-                        deserunt eveniet deleniti blanditiis corrupti alias vitae.</p>
+                    <p class="md:text-xs lg:text-lg">Transform your brand with our premium development services. We create
+                        visuals that captivate and convert. Our services include</p>
                     <ul class="ml-8 list-[circle] md:text-xs lg:text-lg">
                         <li>App Development</li>
                         <li>Web App Development</li>
@@ -100,11 +90,8 @@
                 </div>
                 <div class="flex flex-col gap-2">
                     <h3 class="md:text-md lg:text-2xl font-bold">Branding</h3>
-                    <p class="md:text-xs lg:text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed
-                        adipisci
-                        veniam
-                        optio placeat,
-                        deserunt eveniet deleniti blanditiis corrupti alias vitae.</p>
+                    <p class="md:text-xs lg:text-lg">Transform your brand with our premium branding services. We create
+                        visuals that captivate and convert. Our services include</p>
                     <ul class="ml-8 list-[circle] md:text-xs lg:text-lg">
                         <li>Logo Designing</li>
                         <li>SEO</li>

@@ -1,9 +1,8 @@
 <section class="w-[92%] flex gap-5 mt-28 mx-auto">
     <div class="w-1/2 flex gap-5 p-4 flex-col">
         <h2 class="font-bold text-3xl">Reviews</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis animi a officiis delectus architecto autem?
-            Rem exercitationem deleniti ad, cumque obcaecati tempore repudiandae deserunt qui reiciendis doloribus amet
-            recusandae distinctio rerum aliquam?</p>
+        <p>We invite you to explore our existing reviews, a testament to our commitment to excellence. Customers input
+            is crucial in guiding our continuous improvement efforts and ensuring we meet their expectations</p>
         <a href="/reviews">
             <button
                 class="bg-zinc-950 border-2 border-zinc-950 transition ease-in-out p-2 text-white rounded-sm hover:bg-white hover:text-black">Add
