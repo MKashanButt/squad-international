@@ -5,15 +5,10 @@
         <div class="bg-zinc-950 w-full h-full absolute opacity-80"></div>
         <div class="w-4/5 py-2 px-5 text-center flex flex-col gap-2 text-white justify-center absolute">
             <h1 class="lg:text-[60px] font-bold">Blogs</h1>
-            <p class="lg:text-1xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem qui commodi animi
-                quia
-                aliquam
-                expedita eius hic illum vitae repellendus dolorum libero magnam id provident at ut placeat, eum ab
-                fugiat! Nemo!.Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem qui commodi animi
-                quia
-                aliquam
-                expedita eius hic illum vitae repellendus dolorum libero magnam id provident at ut placeat, eum ab
-                fugiat! Nemo!</p>
+            <p class="lg:text-1xl">Dive into a world of captivating stories, expert tips, and thought-provoking ideas.
+                Whether you're seeking inspiration, practical advice, or a fresh perspective, our blog is your go-to
+                destination. Join our community of avid readers and embark on a journey of discovery. Stay informed, stay
+                inspired, and ignite your passion with every post. Happy reading!</p>
         </div>
     </section>
     <section class="w-full flex flex-col gap-5 items-center justify-center mt-28">
