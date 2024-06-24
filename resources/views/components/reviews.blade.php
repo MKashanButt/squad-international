@@ -14,22 +14,16 @@
         <div style="--swiper-navigation-color: #000000; --swiper-pagination-color: #000000"
             class="swiper testimonialSwiper">
             <div class="swiper-wrapper">
-                <div
-                    class="w-[90%] shadow-md rounded-md flex flex-col gap-3 items-center justify-center text-center px-[50px] py-2 m-auto swiper-slide">
-                    <img src="https://placehold.co/200x200" alt="" class="w-[50px] rounded-3xl">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolorum dicta maxime
-                        aspernatur enim?
-                        In repellendus distinctio earum quo similique?</p>
-                    <span>Customer Name</span>
-                </div>
-                <div
-                    class="w-[90%] shadow-md rounded-md flex flex-col gap-3 items-center justify-center text-center px-[50px] py-2 m-auto swiper-slide">
-                    <img src="https://placehold.co/200x200" alt="" class="w-[50px] rounded-3xl">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolorum dicta maxime
-                        aspernatur enim?
-                        In repellendus distinctio earum quo similique?</p>
-                    <span>Customer Name</span>
-                </div>
+                @foreach ($data as $item)
+                    <div
+                        class="w-[90%] shadow-md rounded-md flex flex-col gap-3 items-center justify-center text-center px-[50px] py-2 m-auto swiper-slide">
+                        <div class="w-12 p-2 rounded-3xl bg-black text-white">
+                            <p>M</p>
+                        </div>
+                        <p>{{ $item->review }}</p>
+                        <span>{{ $item->client_name }}</span>
+                    </div>
+                @endforeach
             </div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>

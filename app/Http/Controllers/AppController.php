@@ -3,10 +3,24 @@
 namespace App\Http\Controllers;
 
 use App\Models\FormSubmission;
+use App\Models\Reviews;
 use Illuminate\Http\Request;
 
-class FormController extends Controller
+class AppController extends Controller
 {
+    public function reviews()
+    {
+        $data = Reviews::all();
+        return view('home', [
+            'data' => $data,
+        ]);
+    }
+
+    public function store_reviews(Request $request)
+    {
+        // $
+    }
+
     public function store(Request $request)
     {
         $name = $request->input('name');

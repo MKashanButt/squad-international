@@ -10,7 +10,7 @@
     </section>
     <!-- who we are -->
     <section class="w-[95%] flex items-center justify-center gap-5 m-auto mt-28">
-        <img src="{{ asset('images/home/why-choose-us.png') }}" alt="" class="w-2/5 h-full p-2">
+        <img src="{{ asset('images/home/why-choose-us.png') }}" alt="" class="w-2/5 h-full p-2" loading="lazy">
         <div class="w-3/5 flex flex-col justify-center gap-2">
             <h2 class="md:text-md lg:text-3xl font-bold">Who We Are?</h2>
             <p class="md:text-xs lg:text-lg">Squad International, a leading digital marketing agency with over 7 years of
@@ -173,5 +173,5 @@
         </div>
     </section>
     <!-- Reviews -->
-    <x-reviews />
+    <x-reviews :data="$data" />
 @endsection

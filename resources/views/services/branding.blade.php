@@ -18,7 +18,8 @@
         <h2 class="font-bold text-3xl">Branding Related Services</h2>
         <div class="w-[90%] flex flex-wrap">
             <div class="w-1/3 px-2 py-3 bg-grey-500 rounded-sm hover:bg-grey-600 flex gap-4">
-                <img src="{{ asset('images/branding/logo-design-icon.png') }}" alt="" class="w-1/3 h-28 m-auto">
+                <img src="{{ asset('images/branding/logo-design-icon.png') }}" alt="" class="w-1/3 h-28 m-auto"
+                    loading="lazy">
                 <div class="w-2/3 flex flex-col gap-2 justify-center">
                     <h3 class="text-lg font-bold">Logo Designing</h3>
                     <p class="text-sm">Logo design is the art of crafting a visual symbol that represents a brand's
@@ -26,7 +27,8 @@
                 </div>
             </div>
             <div class="w-1/3 px-2 py-3 bg-grey-500 rounded-sm hover:bg-grey-600 flex gap-4">
-                <img src="{{ asset('images/branding/seo-icon.png') }}" alt="" class="w-1/3 h-28 m-auto">
+                <img src="{{ asset('images/branding/seo-icon.png') }}" alt="" class="w-1/3 h-28 m-auto"
+                    loading="lazy">
                 <div class="w-2/3 flex flex-col gap-2 justify-center">
                     <h3 class="text-lg font-bold">SEO</h3>
                     <p class="text-sm">SEO, or Search Engine Optimization, is the practice of optimizing a website to rank
@@ -36,8 +38,8 @@
                 </div>
             </div>
             <div class="w-1/3 px-2 py-3 bg-grey-500 rounded-sm hover:bg-grey-600 flex gap-4">
-                <img src="{{ asset('images/branding/content-writting-icon.png') }}" alt=""
-                    class="w-1/3 h-28 m-auto">
+                <img src="{{ asset('images/branding/content-writting-icon.png') }}" alt="" class="w-1/3 h-28 m-auto"
+                    loading="lazy">
                 <div class="w-2/3 flex flex-col gap-2 justify-center">
                     <h3 class="text-lg font-bold">Content Writing</h3>
                     <p class="text-sm">Content writing involves crafting compelling and informative material for various
@@ -46,7 +48,8 @@
                 </div>
             </div>
             <div class="w-1/3 px-2 py-3 bg-grey-500 rounded-sm hover:bg-grey-600 flex gap-4">
-                <img src="{{ asset('images/branding/copywriting-icon.png') }}" alt="" class="w-1/3 h-28 m-auto">
+                <img src="{{ asset('images/branding/copywriting-icon.png') }}" alt="" class="w-1/3 h-28 m-auto"
+                    loading="lazy">
                 <div class="w-2/3 flex flex-col gap-2 justify-center">
                     <h3 class="text-lg font-bold">Copy Writing</h3>
                     <p class="text-sm">Copywriting is the art of writing persuasive content that prompts readers to take
@@ -54,7 +57,8 @@
                 </div>
             </div>
             <div class="w-1/3 px-2 py-3 bg-grey-500 rounded-sm hover:bg-grey-600 flex gap-4">
-                <img src="{{ asset('images/branding/social-media-icon.png') }}" alt="" class="w-1/3 h-28 m-auto">
+                <img src="{{ asset('images/branding/social-media-icon.png') }}" alt="" class="w-1/3 h-28 m-auto"
+                    loading="lazy">
                 <div class="w-2/3 flex flex-col gap-2 justify-center">
                     <h3 class="text-lg font-bold">SMM</h3>
                     <p class="text-sm">Social Media Marketing (SMM) is the use of social media platforms to connect with
@@ -62,7 +66,8 @@
                 </div>
             </div>
             <div class="w-1/3 px-2 py-3 bg-grey-500 rounded-sm hover:bg-grey-600 flex gap-4">
-                <img src="{{ asset('images/branding/blog-icon.png') }}" alt="" class="w-1/3 h-28 m-auto">
+                <img src="{{ asset('images/branding/blog-icon.png') }}" alt="" class="w-1/3 h-28 m-auto"
+                    loading="lazy">
                 <div class="w-2/3 flex flex-col gap-2 justify-center">
                     <h3 class="text-lg font-bold">Blog Posting</h3>
                     <p class="text-sm">Blog posting is the process of regularly publishing articles or posts on a blog. It
@@ -70,7 +75,8 @@
                 </div>
             </div>
             <div class="w-1/3 px-2 py-3 bg-grey-500 rounded-sm hover:bg-grey-600 flex gap-4">
-                <img src="{{ asset('images/branding/ppc-icon.png') }}" alt="" class="w-1/3 h-28 m-auto">
+                <img src="{{ asset('images/branding/ppc-icon.png') }}" alt="" class="w-1/3 h-28 m-auto"
+                    loading="lazy">
                 <div class="w-2/3 flex flex-col gap-2 justify-center">
                     <h3 class="text-lg font-bold">PPC</h3>
                     <p class="text-sm">PPC, or Pay-Per-Click advertising, is a digital marketing strategy where advertisers
@@ -82,7 +88,7 @@
     </section>
     <section class="flex items-center content-center mt-28">
         <div class="w-1/2 relative z-40">
-            <img src="{{ asset('images/branding/logo-designing.png') }}" alt="" class="w-full">
+            <img src="{{ asset('images/branding/logo-designing.png') }}" alt="" class="w-full" loading="lazy">
         </div>
         <div class="w-1/2 h-96 flex flex-col relative">
             <div class="px-6 flex flex-col gap-4">
@@ -127,12 +133,12 @@
             </div>
         </div>
         <div class="w-1/2 relative z-40">
-            <img src="{{ asset('images/branding/seo.png') }}" alt="" class="w-full">
+            <img src="{{ asset('images/branding/seo.png') }}" alt="" class="w-full" loading="lazy">
         </div>
     </section>
     <section class="flex items-center content-center mt-28">
         <div class="w-1/2 relative z-40">
-            <img src="{{ asset('images/branding/content-writing.png') }}" alt="" class="w-full">
+            <img src="{{ asset('images/branding/content-writing.png') }}" alt="" class="w-full" loading="lazy">
         </div>
         <div class="w-1/2 h-96 flex flex-col relative">
             <div class="px-6 flex flex-col gap-4">
@@ -181,12 +187,12 @@
             </div>
         </div>
         <div class="w-1/2 relative z-40">
-            <img src="{{ asset('images/branding/copy-writing.png') }}" alt="" class="w-full">
+            <img src="{{ asset('images/branding/copy-writing.png') }}" alt="" class="w-full" loading="lazy">
         </div>
     </section>
     <section class="flex items-center content-center mt-28">
         <div class="w-1/2 relative z-40">
-            <img src="{{ asset('images/branding/smm.png') }}" alt="" class="w-full">
+            <img src="{{ asset('images/branding/smm.png') }}" alt="" class="w-full" loading="lazy">
         </div>
         <div class="w-1/2 h-96 flex flex-col relative">
             <div class="px-6 flex flex-col gap-4">
@@ -235,12 +241,12 @@
             </div>
         </div>
         <div class="w-1/2 relative z-40">
-            <img src="{{ asset('images/branding/blog.png') }}" alt="" class="w-full">
+            <img src="{{ asset('images/branding/blog.png') }}" alt="" class="w-full" loading="lazy">
         </div>
     </section>
     <section class="flex items-center content-center mt-28">
         <div class="w-1/2 relative z-40">
-            <img src="{{ asset('images/branding/ppc.png') }}" alt="" class="w-full">
+            <img src="{{ asset('images/branding/ppc.png') }}" alt="" class="w-full" loading="lazy">
         </div>
         <div class="w-1/2 h-96 flex flex-col relative">
             <div class="px-6 flex flex-col gap-4">

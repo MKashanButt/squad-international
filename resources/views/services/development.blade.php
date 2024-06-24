@@ -68,7 +68,7 @@
     </section>
     <section class="flex items-center content-center mt-28">
         <div class="w-1/2 relative z-40">
-            <img src="{{ asset('images/development/app-development.png') }}" alt="" class="w-full">
+            <img src="{{ asset('images/development/app-development.png') }}" alt="" class="w-full" loading="lazy">
         </div>
         <div class="w-1/2 h-96 flex flex-col relative">
             <div class="px-6 flex flex-col gap-4">
@@ -117,12 +117,13 @@
             </div>
         </div>
         <div class="w-1/2 relative z-40">
-            <img src="{{ asset('images/development/webapp-development.png') }}" alt="" class="w-full">
+            <img src="{{ asset('images/development/webapp-development.png') }}" alt="" class="w-full"
+                loading="lazy">
         </div>
     </section>
     <section class="flex items-center content-center mt-28">
         <div class="w-1/2 relative z-40">
-            <img src="{{ asset('images/development/crm.png') }}" alt="" class="w-full">
+            <img src="{{ asset('images/development/crm.png') }}" alt="" class="w-full" loading="lazy">
         </div>
         <div class="w-1/2 h-96 flex flex-col relative">
             <div class="px-6 flex flex-col gap-4">
@@ -171,7 +172,8 @@
             </div>
         </div>
         <div class="w-1/2 relative z-40">
-            <img src="{{ asset('images/development/website-design.png') }}" alt="" class="w-full">
+            <img src="{{ asset('images/development/website-design.png') }}" alt="" class="w-full"
+                loading="lazy">
         </div>
     </section>
     <section class="flex items-center content-center mt-28">
