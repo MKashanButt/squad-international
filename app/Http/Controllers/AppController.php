@@ -3,14 +3,14 @@
 namespace App\Http\Controllers;
 
 use App\Models\FormSubmission;
-use App\Models\Reviews;
+use App\Models\Review;
 use Illuminate\Http\Request;
 
 class AppController extends Controller
 {
     public function reviews()
     {
-        $data = Reviews::all();
+        $data = Review::all();
         return view('home', [
             'data' => $data,
         ]);
