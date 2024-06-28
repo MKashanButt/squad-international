@@ -16,9 +16,24 @@ class AppController extends Controller
         ]);
     }
 
+    public function render_review_page()
+    {
+        $data = Review::paginate(8);
+        return view('reviews', [
+            'data' => $data,
+        ]);
+    }
+
     public function store_reviews(Request $request)
     {
-        // $
+        $review = new Review;
+        $review->client_name = $request->input('name');
+        $review->email = $request->input('email');
+        $review->review = $request->input('review');
+
+        $review->save();
+
+        return redirect()->back();
     }
 
     public function store(Request $request)

@@ -18,7 +18,7 @@
                     <div
                         class="w-[90%] shadow-md rounded-md flex flex-col gap-3 items-center justify-center text-center px-[50px] py-2 m-auto swiper-slide">
                         <div class="w-12 p-2 rounded-3xl bg-black text-white">
-                            <p>M</p>
+                            <p>{{ $item->client_name[0] }}</p>
                         </div>
                         <p>{{ $item->review }}</p>
                         <span>{{ $item->client_name }}</span>
